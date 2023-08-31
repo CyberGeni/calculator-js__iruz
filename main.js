@@ -12,3 +12,5 @@ if (operator === '+') {
 } else if (operator === '/') {   
     console.log(firstValue / secondValue);
 }
+ 
+// This is a comment
