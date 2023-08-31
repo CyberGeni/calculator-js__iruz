@@ -12,4 +12,5 @@ if (operator === '+') {
 } else if (operator === '/') {   
     console.log(firstValue / secondValue);
 }
-alert (`${firstValue} ${operator}  ${secondValue}`)
+ 
+// This is a comment
