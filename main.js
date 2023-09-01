@@ -5,7 +5,7 @@ let result = 0;
 
 if (operator === '+') {
      console.log(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
-     result = parseInt(`${firstValue} + ${secondValue}`)
+     result = parseInt(firstValue) && parseInt(secondValue);
      alert(result)
 } else if (operator === '-') {
     let result = console.log(firstValue - secondValue);
