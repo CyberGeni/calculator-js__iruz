@@ -6,7 +6,7 @@ let result = 0;
 if (operator === '+') {
     let intValue1 = parseInt(firstValue);
     let intValue2 = parseInt(secondValue);
-    let result = console.log (intValue1 + intValue2)
+    let result = console.log (intValue1 + intValue2);
     alert(result)
 } else if (operator === '-') {
     let result = console.log(firstValue - secondValue);
