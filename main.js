@@ -13,5 +13,6 @@ if (operator === '+') {
 } else if (operator === '/') {   
     alert(firstValue / secondValue);
 }
+alert(result)
  
 // This is a comment
