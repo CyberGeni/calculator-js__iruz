@@ -4,11 +4,11 @@ let operator = prompt('Enter operator: ');
 let result = 0;
 
 if (operator === '+') {
-    alert(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
+    console.log(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
 } else if (operator === '-') {
-    alert(firstValue - secondValue);
+    console.log(firstValue - secondValue);
 } else if (operator === '*') {
-    alert(firstValue * secondValue);
+    console.log(firstValue * secondValue);
 } else if (operator === '/') {   
     alert(firstValue / secondValue);
 }
