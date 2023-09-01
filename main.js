@@ -6,14 +6,14 @@ let result = 0;
 if (operator === '+') {
      console.log(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
 } else if (operator === '-') {
-    result=console.log(firstValue - secondValue);
-    return result;
+    let result = console.log(firstValue - secondValue);
+    alert(result)
 } else if (operator === '*') {
     result = console.log(firstValue * secondValue);
-    return result;
+    alert(result)
 } else if (operator === '/') {   
     alert(firstValue / secondValue);
 }
-alert(result)
+
  
 // This is a comment
