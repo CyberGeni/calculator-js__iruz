@@ -4,7 +4,7 @@ let operator = prompt('Enter operator: ');
 let result = 0;
 
 if (operator === '+') {
-    console.log(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
+    alert(`${firstValue} + ${secondValue} is ${parseInt(firstValue + secondValue)}`);
 } else if (operator === '-') {
     alert(firstValue - secondValue);
 } else if (operator === '*') {
