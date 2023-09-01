@@ -8,7 +8,8 @@ if (operator === '+') {
 } else if (operator === '-') {
     console.log(firstValue - secondValue);
 } else if (operator === '*') {
-    alert(firstValue * secondValue);
+    result = console.log(firstValue * secondValue);
+    return result;
 } else if (operator === '/') {   
     alert(firstValue / secondValue);
 }
